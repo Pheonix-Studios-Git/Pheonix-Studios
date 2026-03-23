@@ -1,0 +1,57 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background-color: #0a0a0a;
+    border-bottom: 4px solid #272727;
+    font-family: 'Inter', sans-serif;
+    border-radius: 25px;
+}
+
+.navbar-logo a {
+    display: flex;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.navbar-links a:hover {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.navbar-contact button {
+    border: 1px solid #333;
+    border-radius: 25px;
+    background-color: black;
+    transition: transform 0.2s ease-in-out;
+    padding: 8px 16px;
+}
+
+.navbar-contact a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.navbar-contact button:hover {
+    border-color: #fff;
+    background-color: #111;
+    transform: scale(1.1);
+}

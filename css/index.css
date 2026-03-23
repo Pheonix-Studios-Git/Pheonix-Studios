@@ -1,0 +1,66 @@
+.firstlook {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+
+    height: 80vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url("../assets/silicon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: rgb(255, 255, 255);
+}
+
+.firstlook h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    backdrop-filter: blur(1px);
+}
+
+.firstlook p {
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    line-height: 1.5;
+    backdrop-filter: blur(1px);
+}
+
+.why-pheonix {
+    padding: 80px 20px;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 100%), url("../assets/fibreoptics.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.why-pheonix h1 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.why-pheonix-grid {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.why-pheonix-grid-item {
+    border: 2px solid #272727;
+    border-radius: 25px;
+    padding: 30px;
+    transition: transform 0.3s ease;
+    color: #dddddd;
+    backdrop-filter: blur(8px);
+}
+
+.why-pheonix-grid-item:hover {
+    transform: translateY(-2vh);
+}
+
