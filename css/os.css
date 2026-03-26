@@ -1,0 +1,54 @@
+.title, .sub-title {
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+.sub-title {
+    padding-left: 50px;
+}
+
+section {
+    padding-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #969696;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    font-size: 16px;
+}
+
+.boot-sequence {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 90%), url("../assets/seamless-dark.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+.boot-sequence h3,p,ul {
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+
+.status-and-more {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 90%), url("../assets/seamless-dark.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -1px;
+}
+
+.status-and-more h3,h5 {
+    color: white;
+    font-family: Tahoma, sans-serif;
+}
+
+.status-and-more ul {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    list-style-type: disc;
+}

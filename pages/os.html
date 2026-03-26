@@ -16,6 +16,53 @@
         <div class="navbar-container"></div>
         <script src="../js/navbar.js"></script>
 
+        <h1 class="title">AOS++ (Aftergreat Operating System++)</h1>
+        <h3 class="sub-title">An independent 64-bit Operating System designed from scratch</h3>
+
+        <section class="boot-sequence">
+            <h3>The Boot Sequence and Kernel Entry</h3>
+            <p>AOS++ utilizes a multi-stage bootloader known as AOS Bootloader to transition the system <b>16-bit Real Mode</b> to <b>64-bit Long Mode</b>.
+            <br>This bootloader is also <b>Multi-OS</b> and supports <b>PBFS</b> file system.
+            <br>This bootloader is made for <a href="https://en.wikipedia.org/wiki/UEFI"><i><b>UEFI</b></i></a> and <a href="https://en.wikipedia.org/wiki/Master_boot_record"><i><b>MBR</b></i></a>, with future plans for <a href="firmware.html"><i><b>PFI</b></i></a>.
+            </p>
+
+            <ul>
+                <li><b>Stage 1:</b> Initial <a href="https://en.wikipedia.org/wiki/Master_boot_record"><i><b>MBR</b></i></a>/<a href="https://en.wikipedia.org/wiki/UEFI"><i><b>UEFI</b></i></a> loading and drive number detection, as well as loading of <b>Stage 2</b> and <b>Stage 3</b></li>
+                <li><b>Stage 2.1:</b> Enabling of A20 Gate, loading of <a href="https://en.wikipedia.org/wiki/Global_Descriptor_Table"><i><b>Gloabl Descriptor Table (GDT)</b></i></a> and entering <a href="https://en.wikipedia.org/wiki/Protected_mode"><b><i>Protected Mode</i></b></a></li>
+                <li><b>Stage 2.2:</b> Setting up of initial 4-level paging structures <a href="https://wiki.osdev.org/Paging"><i><b>(PML4)</b></i></a> before jumping to <b>Stage 3</b></li>
+                <li><b>Stage 3.1:</b> Initialization of drivers, <b>PBFS</b> as well as initial UI drawing sequence</li>
+                <li><b>Stage 3.2:</b> Loading of OS based of selection of the user from <b>PBFS</b>, and jumping to it</li>
+            </ul>
+        </section>
+
+        <section class="status-and-more">
+            <h3>Current Status and more</h3>
+            <h5>Status: In Devlopment (User and Kernel Modules)</h5>
+            <h5>Upcoming Specifications: Drivers, Memory, Kernel, Modules, User and more</h5>
+            <h5>Working Stages and Parts:</h5>
+            <ul>
+                <li>AOS Bootloader (MBR, all stages)</li>
+                <li>Main Kernel Entry</li>
+                <li>Serial Drivers</li>
+                <li>IDT (Interrupt Descriptor Table) Handler</li>
+                <li>Pager, Direct Map and AVMF</li>
+                <li>ACPI (Legacy) + ACPI (2.0) Drivers</li>
+                <li>PCI and PCIe Drivers</li>
+                <li>Timing System</li>
+                <li>SMP (Symmetric Multiprocessing) and Multi-Core system</li>
+                <li>SATA/ATA Drivers</li>
+                <li>PBFS (Pheonix-Block-File-System)</li>
+                <li>Video Memory Drivers</li>
+                <li>PS2 Drivers</li>
+                <li>Spinlock Handlers</li>
+                <li>AOS Safety Shell</li>
+                <li>Virtio Drivers</li>
+                <li>Pyrion GPU Backend</li>
+                <li>AOS Visible Shell</li>
+                <li>File System (PBFS) Handler and Manager</li>
+            </ul>
+        </section>
+
         <footer class="site-footer"></footer>
         <script src="../js/footer.js"></script>
     </body>

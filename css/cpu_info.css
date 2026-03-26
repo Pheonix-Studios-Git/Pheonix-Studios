@@ -1,3 +1,10 @@
+body {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 50%, rgba(0,0,0,1) 90%), url("../assets/seamless-dark.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .pheonix-cpu-section .cpu-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -36,7 +43,8 @@
     border-radius: 25px;
     flex: 1;
     width: 200px;
-    backdrop-filter: blur(6px);
+    background-color: #ffffff18;
+    backdrop-filter: blur(12px);
     color: white;
     transition: transform 0.3s ease-in-out;
 }
@@ -59,7 +67,8 @@
     background: rgba(255, 255, 255, 0.05);
     padding: 30px 20px;
     border-radius: 25px;
-    backdrop-filter: blur(6px);
+    background-color: #ffffff18;
+    backdrop-filter: blur(12px);
     color: white;
     transition: transform 0.3s ease-in-out;
 }
@@ -69,6 +78,25 @@
 }
 
 .cpu-innovation-c h2 {
+    margin-bottom: 20px;
+}
+
+.cpu-architecture-info-c {
+    margin: 20px 20px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px 20px;
+    border-radius: 25px;
+    background-color: #ffffff18;
+    backdrop-filter: blur(12px);
+    color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cpu-architecture-info-c:hover {
+    transform: scale(1.03);
+}
+
+.cpu-architecture-info-c h2 {
     margin-bottom: 20px;
 }
 
