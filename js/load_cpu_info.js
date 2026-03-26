@@ -11,7 +11,7 @@ const cpuArchitectureInfo = document.getElementById('cpu-architecture-info');
 const architectureInfo = {
     "pvcpu": `
 <hr>
-<h2>PVCpu (Phoenix Virtual CPU) Instruction Set Architecture</h2>
+<h2>PVCpu (Pheonix Virtual CPU) Instruction Set Architecture</h2>
 <h3>Category: MHSA (Modern Huge Simple Architecture)</h3>
 <p>
     <b>The PVCpu Architecture defines a modular instruction set focused on extensibility and efficient decoding.</b>
@@ -81,7 +81,7 @@ const architectureInfo = {
 </p>
 
 <p>
-    <small><i><b>NOTE:</b> PVCpu-C is an encoding variant and is not used for native execution within current Phoenix-CPU hardware implementations.</i></small>
+    <small><i><b>NOTE:</b> PVCpu-C is an encoding variant and is not used for native execution within current Pheonix-CPU hardware implementations.</i></small>
 </p>
 <hr>
     `
