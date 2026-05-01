@@ -1,0 +1,40 @@
+.main-body {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.contact-bar {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, #1e1e1e, #2c2c2c);
+    color: white;
+    font-family: monospace;
+    padding: 0.6rem 1.2rem;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin-left: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.contact-bar:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #2c2c2c, #3a3a3a);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+}
+
+.contact-bar:active {
+    transform: scale(0.97);
+}
+
+.contact-bar i {
+    font-size: 1rem;
+}
+
+.contact-bar a {
+    color: inherit;
+    text-decoration: none;
+}
