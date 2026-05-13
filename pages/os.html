@@ -1,18 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Pheonix Studios - CPU Info</title>
-        <link rel="icon" href="../assets/logo.png">
+        <title>Pheonix Studios - OS</title>
+        <link rel="icon" type="image/png" href="../assets/logo.png">
+
+        <meta charset="UTF-8">
 
         <meta name="keywords" content="cpu, ecosystem, toolchain, computing, open source">
         <meta name="author" content="Pheonix Studios">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Pheonix Studios (From silicon to systems) - OS/AOS++ page">
+        <meta name="description" content="AOS++ is an 64-bit OS made by Pheonix Studios from scratch which includes various unique features and its very own Multi-OS Bootloader">
+
+        <meta property="og:title" content="Pheonix Studios">
+        <meta property="og:description" content="Open-source CPUs, operating systems, firmware and computing technologies.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://pheonix-studios.ct.ws/">
+        <meta property="og:image" content="https://pheonix-studios.ct.ws/assets/logo.png">
+
+        <meta name="twitter:title" content="Pheonix Studios">
+        <meta name="twitter:description" content="Learn about our OS">
+        <meta name="twitter:image" content="https://pheonix-studios.ct.ws/assets/logo.png">
+
+        <link rel="canonical" href="https://pheonix-studios.ct.ws/pages/os">
 
         <link rel="stylesheet" href="../css/core.css">
         <link rel="stylesheet" href="../css/os.css">
     </head>
     <body>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "SoftwareSourceCode",
+                "name": "AOS++",
+                "author": {
+                    "@type": "Organization",
+                    "name": "Pheonix Studios"
+                },
+                "programmingLanguage": [
+                    "C",
+                    "Assembly"
+                ],
+                "codeRepository": "https://github.com/AkshuDev/AOS-1.0"
+            }
+        </script>
+
         <div class="navbar-container"></div>
         <script src="../js/navbar.js"></script>
 
@@ -23,7 +54,7 @@
             <h3>The Boot Sequence and Kernel Entry</h3>
             <p>AOS++ utilizes a multi-stage bootloader known as AOS Bootloader to transition the system <b>16-bit Real Mode</b> to <b>64-bit Long Mode</b>.
             <br>This bootloader is also <b>Multi-OS</b> and supports <b>PBFS</b> file system.
-            <br>This bootloader is made for <a href="https://en.wikipedia.org/wiki/UEFI"><i><b>UEFI</b></i></a> and <a href="https://en.wikipedia.org/wiki/Master_boot_record"><i><b>MBR</b></i></a>, with future plans for <a href="firmware.html"><i><b>PFI</b></i></a>.
+            <br>This bootloader is made for <a href="https://en.wikipedia.org/wiki/UEFI"><i><b>UEFI</b></i></a> and <a href="https://en.wikipedia.org/wiki/Master_boot_record"><i><b>MBR</b></i></a>, with future plans for <a href="firmware"><i><b>PFI</b></i></a>.
             </p>
 
             <ul>

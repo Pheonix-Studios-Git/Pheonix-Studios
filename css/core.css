@@ -1,3 +1,29 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: black;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.7;
+    color: #f5f5f5;
+    background-color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+::selection {
+    background: #7ecbff33;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+
+    p {
+        max-width: 100%;
+    }
 }

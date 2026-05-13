@@ -1,0 +1,117 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Inter", "Segoe UI", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+}
+
+h1 {
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #f3f3f3;
+}
+
+h3 {
+    font-size: clamp(1.3rem, 3vw, 2rem);
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    color: #e8e8e8;
+}
+
+h4 {
+    font-size: 1.15rem;
+    margin-top: 1.5rem;
+    color: #d9d9d9;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #bdbdbd;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 0.9rem;
+    color: #999999;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+p {
+    font-size: 1rem;
+    color: #d6d6d6;
+    margin-bottom: 1.2rem;
+    max-width: 75ch;
+}
+
+a {
+    color: #7ecbff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+
+    position: relative;
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 2px;
+    background: #7ecbff;
+    transition: width 0.25s ease;
+}
+
+a:hover {
+    color: #a8ddff;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+a:focus-visible {
+    outline: 2px solid #7ecbff;
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #d0d0d0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+code {
+    font-family:"Fira Code","Courier New",monospace;
+    background: #1b1f2a;
+    color: #7ecbff;
+    padding: 0.2rem 0.4rem;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+pre {
+    background: #151922;
+    padding: 1rem;
+    border-radius: 10px;
+    overflow-x: auto;
+    border: 1px solid #252b38;
+}
