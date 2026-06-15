@@ -15,6 +15,12 @@
     border-radius: 10px;
 }
 
+.video-name {
+	text-align: center;
+	font-family: monospace;
+	font-size: larger;
+}
+
 video {
     width: 100%;
     height: auto;
