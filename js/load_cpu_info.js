@@ -139,8 +139,8 @@ document.addEventListener("DOMContentLoaded", () => {
     cpuLicense.textContent = data.license;
     cpuProductNumber.textContent = data.productNumber;
     cpuStatus.textContent = data.status;
-    cpuHardware.innerHTML = data.hardware;
+    cpuHardware.innerHTML = DOMPurify.sanitize(data.hardware);
     cpuSummary.textContent = data.summary;
     cpuInnovation.textContent = data.innovation;
-    cpuArchitectureInfo.innerHTML = architectureInfo[data.architecture];
+    cpuArchitectureInfo.innerHTML = DOMPurify.sanitize(architectureInfo[data.architecture]);
 })

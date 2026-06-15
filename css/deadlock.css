@@ -1,0 +1,23 @@
+#section-hdr {
+	font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-item {
+    background: #111;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
