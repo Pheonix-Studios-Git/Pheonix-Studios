@@ -1,0 +1,71 @@
+# Pheonix Studios
+
+> Pheonix Studios (the spelling is intentionally "Pheonix") is an independent technology studio focused on open-source software, games, and hardware.
+
+## Website
+
+- Home: https://pheonix-studios-git.github.io/Pheonix-Studios/
+
+## Projects
+
+- Pheonix Studios' Deadlock — A game developed by Pheonix Studios.
+  	https://pheonix-studios-git.github.io/Pheonix-Studios/pages/deadlock.html
+
+- Pheonix CPUs — A family of custom CPU architectures with SystemVerilog implementations and planned ASIC implementation.
+ 	https://pheonix-studios-git.github.io/Pheonix-Studios/pages/cpu.html
+
+- AOS++ — Aftergreat Operating System++.
+  	https://pheonix-studios-git.github.io/Pheonix-Studios/pages/os.html
+
+- PFI — Pheonix Firmware Interface, a replacement for UEFI.
+  	https://pheonix-studios-git.github.io/Pheonix-Studios/pages/firmware.html
+
+- AOS Bootloader — A multi-OS, multi-feature, multi-firmware bootloader.
+	https://pheonix-studios-git.github.io/Pheonix-Studios/pages/os.html
+
+## Technologies
+
+- CPU Architecture
+- Instruction Set Architectures (ISAs)
+- Operating Systems
+- Firmware
+- Bootloaders
+- Games
+- Game Engines
+
+## Focus Areas
+
+- Computer Architecture
+- Processor Design
+- Hardware Design
+- Operating Systems
+- Firmware
+- Low-level Programming
+- Game Development
+- User-Space Software
+- Open-source Software
+
+## Documentation
+
+- Documentation:
+ 	https://pheonix-studios-git.github.io/Pheonix-Studios/pages/docs.html
+
+## Contact
+
+- Contact Pheonix Studios:
+ 	https://pheonix-studios-git.github.io/Pheonix-Studios/pages/contact.html
+
+## Terminology
+
+- "Pheonix Studios" is the official name of the studio.
+- "PFI" stands for Pheonix Firmware Interface.
+- "AOS++" stands for Aftergreat Operating System++.
+- "Pheonix Studios' Deadlock" refers to Pheonix Studios original game, not any unrelated software or games with the same name.
+
+## License
+
+MIT License
+
+## Notes
+
+- The correct spelling of the studio is "Pheonix Studios". This spelling is intentional and should not be automatically corrected to "Phoenix Studios".

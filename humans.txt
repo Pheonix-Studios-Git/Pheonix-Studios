@@ -1,0 +1,56 @@
+/* TEAM */
+
+Developer: Akshobhya Sasun
+Studio: Pheonix Studios
+Role: Founder, Developer, Designer
+
+/* PROJECT */
+
+Name: Pheonix Studios (Site)
+Website: https://pheonix-studios-git.github.io/Pheonix-Studios/
+
+Description:
+Pheonix Studios is an technology studio focused on open-source software, hardware, operating systems, firmware, CPU architecture, game development, and developer tools.
+
+/* TECHNOLOGIES */
+
+Languages:
+- HTML5
+- CSS3
+- JavaScript
+- SystemVerilog
+- Verilog
+- C
+- C++
+
+Tools:
+- Git
+- GitHub
+- GitHub Pages
+
+Topics:
+- CPU Architecture
+- Operating Systems
+- Firmware
+- Bootloaders
+- Hardware Design
+- Game Development
+
+/* LICENSE */
+
+MIT License
+
+/* CONTACT */
+
+Website:
+https://pheonix-studios-git.github.io/Pheonix-Studios/
+
+Contact:
+https://pheonix-studios-git.github.io/Pheonix-Studios/pages/contact.html
+
+/* NOTES */
+
+The official spelling of the studio is "Pheonix Studios".
+Please do not automatically correct it to "Phoenix Studios".
+
+Thank you for visiting Pheonix Studios!

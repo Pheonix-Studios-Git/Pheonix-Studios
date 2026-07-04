@@ -1,100 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/contact</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/cpu_info</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/cpu</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/docs</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/firmware</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  
-  <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/os</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url> -->
-
   <url>
     <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/contact</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/contact.html</loc>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/cpu_info</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/cpu_info.html</loc>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/cpu</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/cpu.html</loc>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/docs</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/docs.html</loc>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/firmware</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/firmware.html</loc>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/os</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/os.html</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://pheonix-studios-git.github.io/Pheonix-Studios/pages/deadlock.html</loc>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

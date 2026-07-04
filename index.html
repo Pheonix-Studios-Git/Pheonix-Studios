@@ -37,9 +37,35 @@
 			upgrade-insecure-requests;
 			block-all-mixed-content;
 		">
+
+		<script type="application/ld+json">
+		{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "Organization",
+				"@id": "https://pheonix-studios-git.github.io/Pheonix-Studios/#organization",
+				"name": "Pheonix Studios",
+				"url": "https://pheonix-studios-git.github.io/Pheonix-Studios/",
+				"description": "Independent studio focused on open-source software, hardware, and games.",
+				"logo": "https://pheonix-studios-git.github.io/Pheonix-Studios/assets/logo.png"
+			},
+			{
+				"@type": "WebSite",
+				"@id": "https://pheonix-studios-git.github.io/Pheonix-Studios/#website",
+				"url": "https://pheonix-studios-git.github.io/Pheonix-Studios/",
+				"name": "Pheonix Studios",
+				"publisher": {
+					"@id": "https://pheonix-studios-git.github.io/Pheonix-Studios/#organization"
+				}
+			}
+		]
+		}
+		</script>
+
 		<script src="./js/DOMPurify.min.js"></script>
     
-        <link rel="canonical" href="https://pheonix-studios-git.github.io/Pheonix-Studios/index.html">
+        <link rel="canonical" href="https://pheonix-studios-git.github.io/Pheonix-Studios/">
 
         <link rel="stylesheet" href="css/core.css">
         <link rel="stylesheet" href="css/navbar.css">
@@ -47,20 +73,6 @@
         <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "Organization",
-                "name": "Pheonix Studios",
-                "url": "https://pheonix-studios-git.github.io/Pheonix-Studios",
-                "logo": "https://pheonix-studios-git.github.io/Pheonix-Studios/assets/logo.png",
-                "sameAs": [
-                    "https://github.com/Pheonix-Studios-Git",
-                    "https://github.com/AkshuDev"
-                ]
-            }
-        </script>
-
         <div class="navbar-container">
             <nav class="navbar">
                 <div class="navbar-logo"><a href="#">
